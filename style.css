@@ -20,6 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 100px;
 }
 
 /* LAYOUT */
@@ -167,4 +168,18 @@ main {
 }
 .hidden {
   display: none;
+}
+#ruler{
+  display: none;
+  padding: 10px;
+  margin: 10px;
+}
+#rules:hover + #ruler{
+  display: block;
+  color:black;
+  font-family:sans-serif;
+  background-color:whitesmoke;
+  border-radius: 5px;
+  
+  
 }
